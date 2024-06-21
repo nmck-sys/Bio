@@ -4,17 +4,18 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello HTML!</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- The href attribute points to the relative path of the stylesheet-->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Color</title>
   </head>
 
   <body>
     <header>
       <!-- Headers -->
-      <h1>Hello World!</h1>
-      <h2>Hello World!</h2>
-      <h3>Hello World!</h3>
-      <h4>Hello World!</h4>
-      <h5>Hello World!</h5>
-      <h6>Hello World!</h6>
+      <h1 class="title">Student Bio</h1>
     </header>
 
     <section>
@@ -35,6 +36,47 @@
       <!-- Link -->
       <a href="https://www.google.com">This is a link to Google.com</a>
     </section>
+
+    <section>
+        <h2 class="title">Your Name</h2>
+        <!-- TODO: modify img attributes -->
+        <img src="https://via.placeholder.com/200" alt="Your Name" />
+        <p>Write a short paragraph or two about yourself</p>
+      </section>
+
+      <section>
+        <h2 class="title">Contact Info</h2>
+        <ul>
+          <!-- TODO: add id attribute -->
+          <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+          <!-- TODO: add id attribute -->
+          <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+          <!-- TODO: add id attribute -->
+          <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+        </ul>
+      </section>
+      
+      <section class="box box-orange">
+        <h2>Orange</h2>
+      </section>
+  
+      <section class="box box-blue">
+        <h2>Blue</h2>
+      </section>
+  
+      <section class="box box-orange">
+        <h2>Orange</h2>
+      </section>
+     
+      <section class="box box-blue">
+        <h2>Blue</h2>
+      </section>
+  
+      <!--id attribute added for styling-->
+      <section class="box" id="box-yellow">
+        <h2>Yellow</h2>
+      </section>
+  
   </body>
 
 </html>
